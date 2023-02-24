@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  width: 100%;
+  background-image:linear-gradient(to right, blue , yellow);;
+}
+.cp {
+  cursor: pointer;
+}
+.z {
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+.nav-link:hover {
+  font-weight: bold;
+}
+.icons {
+  /* width: 100%; */
+  
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.icons a {
+  color: rgb(23, 18, 57);
+  padding: 1em;
+  font-size: large;
+}
+.image {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .tableData {
+    overflow: scroll;
+  }
+}
